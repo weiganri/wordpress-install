@@ -10,7 +10,7 @@ sudo apt-get install git
 
 now type in The following:
 
-
+git https://github.com/weiganri/wordpress-install.git
 
 And now paste:
 
