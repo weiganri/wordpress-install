@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 echo "Hello. Welcome to the software-installer that installs Wordpress fully automatically on your Ubuntu or Debian Server in every Version. Klick enter to proceed"
 sudo apt-get update
 sudo apt-get upgrade
