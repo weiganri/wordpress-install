@@ -10,7 +10,7 @@ sudo /etc/init.d/apache2 restart
 aptitude install php5-mysql php5-curl php5-gd php5-idn php-pear php5-imagick php5-imap php5-mcrypt php5-memcache php5-mhash php5-ming php5-ps php5-pspell php5-recode php5-snmp php5-sqlite php5-tidy php5-xmlrpc php5-xsl php5-json
 /etc/init.d/apache2 restart
 cd /var/www
-sudo apt-get install mysql-server
+sudo apt-get install mysql-server mysql-client
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install nano
@@ -18,7 +18,7 @@ sudo apt-get update
 sudo apt-get upgrade
 aptitude install phpmyadmin
 sudo /etc/init.d/apache2 restart
-sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf.d/phpmyadmin.conf
+#sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf.d/phpmyadmin.conf
 sudo /etc/init.d/apache2 restart
 cd /var/www
 wget http://wordpress.org/latest.tar.gz
