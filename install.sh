@@ -28,5 +28,6 @@ rm -f latest.tar.gz
 rm -f index.html
 sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf.d/phpmyadmin.conf
 sudo /etc/init.d/apache2 restart
-echo "Now it's your turn. Go to http://yourip/phpmyadmin login with root and your chosen password 5 minutes ago and create a database."
+mysqladmin -uroot -p create wordpress
+echo "Now you can start with building up your wordpress Blog. The Database name ist Wordpress."
 
