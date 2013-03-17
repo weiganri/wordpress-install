@@ -28,6 +28,5 @@ rm -f latest.tar.gz
 rm -f index.html
 sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf.d/phpmyadmin.conf
 sudo /etc/init.d/apache2 restart
-sudo mv wp-config-sample.php wp-config.php
-chmod 777 wp-config.php
 echo "Now it's your turn. Go to http://yourip/phpmyadmin login with root and your chosen password 5 minutes ago and create a database."
+
